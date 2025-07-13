@@ -1,6 +1,3 @@
-# Desarrolle el programa que permita calcular la hipotenusa de un triángulo rectángulo
-# usando la fórmula de Pitágoras: h = √(a² + b²)
-
 import os
 import math
 os.system("cls")
