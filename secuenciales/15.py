@@ -1,7 +1,3 @@
-# Juan, Rosa y Daniel aportan cantidades de dinero. Juan y Rosa en dólares, Daniel en soles.
-# Calcular el capital total en dólares y el porcentaje que aporta cada uno.
-# Considerar: 1 dólar = 3.00 soles
-
 import os
 os.system("cls")
 
