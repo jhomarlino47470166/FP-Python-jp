@@ -1,7 +1,3 @@
-# El cálculo del pago mensual de un empleado es así:
-# Sueldo básico = horas trabajadas * tarifa horaria
-# Sueldo bruto = sueldo básico + 20%
-# Sueldo neto = sueldo bruto - 10%
 
 import os
 os.system("cls")
