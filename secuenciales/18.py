@@ -1,6 +1,3 @@
-# Se aplica un 15% de descuento dos veces:
-# Primero sobre el total de la compra, luego sobre el importe restante.
-
 import os
 os.system("cls")
 
