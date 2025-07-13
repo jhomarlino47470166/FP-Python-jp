@@ -1,6 +1,3 @@
-# Desarrolle el programa que determine de un cilindro:
-# Área base = πr², área lateral = 2πrh, área total = 2 x área base + área lateral.
-# Siendo r el radio y h la altura.
 
 import os
 import math
