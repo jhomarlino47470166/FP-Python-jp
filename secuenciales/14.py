@@ -1,6 +1,3 @@
-# Calcule el promedio de los 3 números mayores de 5 números ingresados.
-# Usando listas y funciones de la clase math.
-
 import os
 import math
 os.system("cls")
@@ -19,3 +16,4 @@ suma = math.fsum([mayores[0], mayores[1], mayores[2]])
 promedio = suma / 3
 
 print(f"\nEl promedio de los 3 números mayores es: {promedio:.2f}")
+
