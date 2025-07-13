@@ -2,14 +2,20 @@
 # Usando listas y funciones de la clase math.
 
 import os
+import math
 os.system("cls")
 
-numeros = []
-for i in range(5):
-    n = float(input(f"Ingrese el número {i+1}: "))
-    numeros.append(n)
+n1 = float(input("Ingrese el número 1: "))
+n2 = float(input("Ingrese el número 2: "))
+n3 = float(input("Ingrese el número 3: "))
+n4 = float(input("Ingrese el número 4: "))
+n5 = float(input("Ingrese el número 5: "))
 
-numeros.sort(reverse=True)  # ordenamos de mayor a menor
-promedio = sum(numeros[:3]) / 3
+mayores = [n1, n2, n3, n4, n5]
 
-print(f"El promedio de los 3 números mayores es: {promedio:.2f}")
+mayores.sort(reverse=True)
+
+suma = math.fsum([mayores[0], mayores[1], mayores[2]])
+promedio = suma / 3
+
+print(f"\nEl promedio de los 3 números mayores es: {promedio:.2f}")
