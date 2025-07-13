@@ -1,7 +1,3 @@
-# Sueldo básico = S/. 500
-# Comisión = 9% del total vendido
-# Descuento por ley = 11% del sueldo bruto (básico + comisión)
-
 import os
 os.system("cls")
 
