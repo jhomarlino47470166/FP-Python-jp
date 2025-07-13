@@ -1,5 +1,3 @@
-# Una donación anual se reparte así:
-# 25% centro de salud, 35% comedor infantil, 25% escuela infantil, el resto al asilo.
 
 import os
 os.system("cls")
