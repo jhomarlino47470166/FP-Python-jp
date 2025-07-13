@@ -1,4 +1,3 @@
-# Desarrolle el programa que calcule el área total y el volumen de un cilindro. Considere las siguientes formulas: Área = 2πr(r+h) y Volumen = πr²h. Siendo r el radio y h la altura.
 
 import os
 import math
