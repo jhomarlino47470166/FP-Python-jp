@@ -16,7 +16,12 @@ else:
     tarifa = 0
 
 sueldo_bruto = horas * tarifa
-descuento = sueldo_bruto * 0.20 if sueldo_bruto > 2500 else sueldo_bruto * 0.15
+
+if sueldo_bruto > 2500 :
+    descuento = sueldo_bruto * 0.20 
+else :
+    descuento = sueldo_bruto * 0.15
+
 sueldo_neto = sueldo_bruto - descuento
 
 print(f"Sueldo bruto: S/. {sueldo_bruto:.2f}")
