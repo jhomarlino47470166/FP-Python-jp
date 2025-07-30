@@ -18,6 +18,9 @@ elif curso == "química":
 else:
     promedio = 0
 
-condicion = "Aprobado" if promedio >= 13 else "Desaprobado"
+if promedio >= 13:
+    condicion = "Aprobado"
+else:
+    condicion = "Desaprobado"
 
 print(f"Promedio final: {promedio:.2f} - {condicion}")
