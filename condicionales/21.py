@@ -1,25 +1,31 @@
 import os
 os.system("cls")
 
-codigo = int(input("Ingrese el número de 4 cifras: "))
+numero = int(input("Ingresa el numero de 4 digitos: "))
 
-estado = codigo // 1000
-edad = (codigo % 1000) // 10
-sexo = codigo % 10
+estado = numero // 1000
+edad = (numero % 1000) // 10
+sexo = numero %10
 
-if estado == 1:
-    estadoCivil = "Soltero"
-elif estado == 2:
-    estadoCivil = "Casado"
-elif estado == 3:
-    estadoCivil = "Divorciado"
-elif estado == 4:
-    estadoCivil = "Viudo"
-else:
-    estadoCivil = "Desconocido"
+if estado == 1 : 
+    estado = "soltero"
+elif estado == 2 :
+    estado = "casado"
+elif estado == 3 :
+    estado = "divorciado"
+elif estado == 4 :
+    estado = "viudo"
+else :
+    estado = "no identificado"
 
-sexoTexto = "Masculino" if sexo == 1 else "Femenino" if sexo == 2 else "Desconocido"
 
-print(f"Estado civil: {estadoCivil}")
-print(f"Edad: {edad}")
-print(f"Sexo: {sexoTexto}")
+if sexo == 1 :
+    sexo = "masculino"
+elif sexo == 2 :
+    sexo = "femenino"
+else :
+    sexo = "desconocido" 
+
+print(f"Tu estado civil es : {estado} ")
+print(f"Tu edad es : {edad}")
+print(f"Tu sexo es : {sexo} ")
