@@ -4,9 +4,18 @@ os.system("cls")
 monto_vendido = float(input("Ingrese monto vendido: "))
 
 sueldo_bruto = 600 + monto_vendido * 0.15
-descuento = sueldo_bruto * 0.10 if sueldo_bruto > 1800 else sueldo_bruto * 0.05
+
+if sueldo_bruto > 1800:
+    descuento = sueldo_bruto * 0.10
+else:
+    descuento = sueldo_bruto * 0.05
+
 sueldo_neto = sueldo_bruto - descuento
-polos = 3 if monto_vendido > 1000 else 1
+
+if monto_vendido > 1000:
+    polos = 3
+else:
+    polos = 1
 
 print(f"Sueldo bruto: S/. {sueldo_bruto:.2f}")
 print(f"Descuento: S/. {descuento:.2f}")
